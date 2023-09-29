@@ -1,0 +1,25 @@
+﻿@model Actividad2.Models.ViewModels.ConversionMonedaViewModel
+@{
+    Layout = "Layout";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actividad 2</title>
+    <link href="~/Style.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div>
+            <h3>Convertir moneda:</h3>
+            <input type="number" step="any" value="@Model.Cantidad" name="Cantidad" class="cant" /><br />
+        </div>
+        <div>
+            <input type="submit" name="conver" value="USD" />
+            <input type="submit" name="conver" value="MXN" />
+        </div>
+        <br />
+        <label>@Model.Total</label>
+    </form>
+</body>
+</html>

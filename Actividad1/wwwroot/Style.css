@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  text-transform: uppercase;
+}
+.logo{
+    width: 75px;
+    height:75px;
+}
+h1{
+    font-size:22px;
+}
+p {
+    font-size:20px;
+    color: gray;
+}
+.x {
+    text-align:center;
+    border-top: 3px dotted lightblue;
+    border-bottom: 3px dotted lightblue;
+}
+h3 {
+  color: purple;
+  font-size: 18px;
+}
+label {
+  color: black;
+  font-size: 16px;
+  font-style: italic;
+}
+a:link {
+    font-size: 14px;
+    color: lightblue;
+}
+a:visited{
+    color:purple;
+}
+.tit {
+    text-align: left;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.dato {
+    font-size: 12px;
+    font-style: normal;
+}
+.bdy {
+    text-align: left;
+}
+.perf{
+    width:180px;
+    height:180px;
+}
+h2{
+    font-size:35px;
+}

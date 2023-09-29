@@ -1,0 +1,23 @@
+body {
+  font-size: 20px;
+  text-align: center;
+  border: 3px dotted black;
+}
+form{
+    background-color:mediumpurple;
+}
+div {
+  align-items: center;
+}
+input {
+  margin: 2%;
+  font-size:18px;
+  background-color: lightgray;
+}
+.cant {
+  font-size: 18px;
+}
+.logo{
+    width:150px;
+    height:150px;
+}

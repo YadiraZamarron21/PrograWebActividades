@@ -1,0 +1,40 @@
+﻿@model Actividad1.Models.ViewModels.PerfilViewModel
+@{
+    Layout = "Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfil</title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="bdy">
+        <div>
+            <h2>Mi perfil</h2>
+            <img class="perf" src="~/img/perfil1.jpg" />
+        </div>
+        <div>
+            <h4 class="tit">Nombre del alumno:</h4>
+            <label class="dato">@Model.NombreAlumno</label>
+        </div>
+        <div>
+            <h4 class="tit">Correo:</h4>
+            <label class="dato">@Model.Correo</label>
+        </div>
+        <div>
+            <h4 class="tit">Especialidad:</h4>
+            <label class="dato">@Model.Especialidad</label>
+        </div>
+        <div>
+            <h4 class="tit">Numero de control:</h4>
+            <label class="dato">@Model.NumeroControl</label>
+        </div>
+        <div>
+            <h4 class="tit">Semestre:</h4>
+            <label class="dato">@Model.Semestre</label>
+        </div>
+    </div>
+</body>
+</html>

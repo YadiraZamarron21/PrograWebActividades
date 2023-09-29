@@ -1,0 +1,33 @@
+﻿@model Actividad1.Models.ViewModels.IndexViewModel
+@{
+    Layout = "Layout";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actividad 1 Unidad 1</title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div>
+            <h3>Nombre de la materia:</h3>
+            <label>@Model.NombreMateria</label><br />
+        </div>
+        <div>
+            <h3>Semestre:</h3>
+            <label>@Model.Semestre</label><br />
+        </div>
+        <div>
+            <h3>Periodo:</h3>
+            <label>@Model.Periodo</label><br />
+        </div>
+        <div>
+            <h3>Nombre del alumno:</h3>
+            <label>@Model.Nombre</label><br />
+        </div>
+
+        <a href="~/Home/Perfil">Ver Perfil</a>
+    </div>
+</body>
+</html>
